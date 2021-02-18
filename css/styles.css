@@ -1,32 +1,86 @@
 * {
-        margin: 0%;
+        margin: 0%;       
+}
+.banner{
+        background-color: #E5E5E5 30%;
+        width: 1170px;
+        height: 595px;
+}
+.banner_idea {
+        font-family: 'Raleway', sans-serif;
+        color: #212121;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 25px;     
+}
+.line_banner{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 64px;
+        height: 2px;
+        background-color: rgba(217, 137, 67, 1);
+}
+.container_discription {
+        font-family: Open sans, regular 400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(134, 135, 139, 1)
 }
 .container{
-        max-width: 1170px;
+        
         margin: auto;
         margin-bottom: 10px;
         color: rgb(5, 5, 5);
 }
-.banner{
-      background-color: #df5656
-      margin: auto;
-}
 .main {
 }
-.img {
-       border: 1px solid #e99259;
-       border-radius: 35px;
-       padding: 10px;
-
+.advantage {
+        display: flex;
 }
-.container_discription {
-        font-size: 20px;
-        font-style:initial;
-        color: rgb(116, 124, 133);
-}
-.banner_idea {
-        font-size: 30px;
-        font-weight: bold;
+.item {
+        width: 350px;
+        height: 225px;
+        border: 1px;
+        border-color:  darkgreen;
+        
+        align-items: center;
         margin: auto;
-
+        margin-top: 67px;
+}
+.img {
+        margin: auto;
+        margin-bottom: 30px;
+        display: flex;
+        position: center;
+        border: 1px solid rgba(217, 137, 67, 1);
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        align-items: center;
+        justify-content: center;
+}
+.item{
+        font-family: Open sans, regular 400;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+        height: 225px;
+}
+.title{
+        margin-bottom: 16px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+       align-items: center;
+}
+.discript {
+        margin: auto;
 }
