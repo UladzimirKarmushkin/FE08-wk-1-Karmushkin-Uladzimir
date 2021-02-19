@@ -48,7 +48,6 @@
         width: 350px;
         height: 225px;
         border: 1px;
-        border-color:  darkgreen;
         
         align-items: center;
         margin: auto;
@@ -83,4 +82,102 @@
 }
 .discript {
         margin: auto;
+}
+.costpage {
+        
+        background-color: #E5E5E5
+}
+.pricing__item {
+        font-family: 'Raleway', sans-serif;
+        color: #212121;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 34px;     
+}
+.line__cost {
+        margin: auto;
+        margin-bottom: 34px;
+        width: 64px;
+        height: 2px;
+        background-color: rgba(217, 137, 67, 1);
+}
+.cost__discription {
+        font-family: Open sans, regular 400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(134, 135, 139, 1);
+        margin-bottom: 63px;
+}
+.cost__container {
+        display:inline-flex;
+        font-family: Open sans, regular 400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(134, 135, 139, 1)
+}
+.cost__item {
+        display: flexbox;
+        background-color: rgba(51, 51, 51, 1);
+        margin: auto;
+}
+.offer {
+        background-color: rgba(51, 51, 51, 1);
+        height: 50px;
+        width: 340px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+}
+.cost {
+        background-color: rgba(51, 51, 51, 1);
+        height: 100px;
+        width: 340px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+}
+.free__block {
+        height: 50px;
+        width: 340px;
+        width: 78px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        margin: auto;
+        color: rgba(255, 255, 255, 0.5);
+}
+.memory__content {
+        background: rgba(255, 255, 255, 1);
+        height: 40px;
+        width: 340px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        margin: auto;
+        color: rgba(255, 255, 255, 0.5);
 }
