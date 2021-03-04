@@ -1,0 +1,51 @@
+.form__contact {
+}
+.user__data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+input {
+        border: none;
+        width: 478px;
+        border-bottom: 1px solid rgba(189, 189, 189, 1);
+        margin-bottom: 31px;
+}
+.user__data {
+}
+.left__item {
+        max-width: 478px;
+        margin: 0 20px;
+}
+.name__data {
+}
+.email__data {
+}
+.password__data {
+}
+.right__item {
+        max-width: 478px;
+        margin: 0 20px;
+}
+.message {
+}
+label {
+        display: block;
+        margin-bottom: 32px;
+}
+input {
+        display: block;
+}
+.message__item {
+        margin-bottom: 228px;
+}
+.send__button {
+        width: 166px;
+        height: 42px;
+        background-color: rgba(236, 121, 121, 1);
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        margin: auto;
+        margin-top: 68px;
+}

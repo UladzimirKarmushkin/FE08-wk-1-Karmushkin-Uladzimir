@@ -1,0 +1,31 @@
+.footer {
+        padding: 20px 0 10px;
+        background-color: rgba(0, 0, 0, 1);
+}
+.socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        color: #E2E2E2;
+        margin-bottom: 18px;
+        list-style: none;
+}
+.socials::before {
+        content: "\f09a";
+        font-family: "Font Awesome 5 Free";
+        font-size: 18px;
+        font-weight: 600;
+}
+.axure__themes {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 0;
+}
