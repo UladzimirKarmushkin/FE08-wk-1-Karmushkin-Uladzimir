@@ -29,11 +29,11 @@
         margin-bottom: 30px;
         display: flex;
         border: 1px solid rgba(217, 137, 67, 1);
-        width: 70px;
-        height: 70px;
         border-radius: 50%;
         align-items: center;
         justify-content: center;
+        width: 70px;
+        height: 70px;
 }
 .item{
         font-family: 'Open sans', normal 400;

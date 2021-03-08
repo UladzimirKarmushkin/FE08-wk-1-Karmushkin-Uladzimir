@@ -4,10 +4,14 @@
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 300px;
+        height: 350px;
         padding: 0px;
         position: relative;
         padding: 58px 0 38px;
+}
+.bg:hover {
+        background-size: 135%;
+        transition: 0.5s;
 }
 .bg::after {
         content: "";
@@ -19,17 +23,25 @@
         top: 0;
         left: 0;
 }
-.bg::after .title__bg {
+/*.title__bg::after{
         content: "";
+        display: block;
         width: 64px;
         height: 2px;
-        color: 1px solid rgba(255, 255, 255, 1);
+        background-color: red;
+        margin: 0 auto;
+        margin-top: 10px;*/
+}
+}
+.title__bg::after{
+        content: "";
         display: block;
-        margin: auto;
+        width: 64px;
+        height: 2px;
+        background-color:rgba(255, 255, 255, 1);
+        margin: 0 auto;
         margin-top: 34px;
         margin-bottom: 34px;
-        position: relative;
-        z-index: 1;
 }
 .hr {
         width: 135px;
@@ -42,20 +54,24 @@
         padding: 10px;
 }
 .hr:hover {
-        background-color: rgba(217, 137, 67, 0.479);
-        color: rgba(51, 51, 51, 1);
+        background-color: rgba(236, 121, 121, 0.65);
+        transform: scale(1.25, 1.25);
+        border: none;
+        font-size: 20px;
+        transition: 0.5s;
 }
 a {
         text-decoration: none;
         color:  rgba(255, 255, 255, 1);
 }
 a:hover {
-        color: rgba(51, 51, 51, 1);
+        color: rgb(255, 248, 248);
+        transition: 0.5s;
 }
 .title__bg {
         position: relative;
         z-index: 1;
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -80,7 +96,7 @@ a:hover {
         position: relative;
         z-index: 1;
         color: rgba(255, 255, 255, 0.8);
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 16px;
         font-style: normal;
         font-weight: 300;

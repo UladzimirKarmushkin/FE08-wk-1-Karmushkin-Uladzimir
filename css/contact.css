@@ -1,3 +1,6 @@
+.container {
+        max-width: 1170px;
+}
 .form__contact {
 }
 .user__data {
@@ -15,17 +18,29 @@ input {
 }
 .left__item {
         max-width: 478px;
-        margin: 0 20px;
+        margin: 0 111px;
 }
 .name__data {
 }
+.user_name::after {
+        content: "*";
+        color: red;
+}
 .email__data {
+}
+.user_email::after {
+        content: "*";
+        color: red;
 }
 .password__data {
 }
+.user_passport::after {
+        content: "*";
+        color: red;
+}
 .right__item {
         max-width: 478px;
-        margin: 0 20px;
+        margin: 0 111px;
 }
 .message {
 }
@@ -48,4 +63,9 @@ input {
         display: block;
         margin: auto;
         margin-top: 68px;
+}
+.send__button:hover {
+        transform: scale(1.2, 1.2);
+        font-size: 16px;
+        transition: 0.3s;
 }
