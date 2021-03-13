@@ -1,0 +1,179 @@
+.first__page {
+        margin: auto;
+        background-image: url('/img/background-first-page.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+.first__page::after {
+        content: "";
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+}
+.first__page__container {
+        max-width: 1170px;
+        padding: 100px 15px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.fp__left__item {
+}
+
+.official__name {
+        display: flex;
+        font-family: 'Roboto';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 32px;
+        color: rgba(255, 255, 255, 1);
+        position: relative;
+        z-index: 1;
+}
+.official__name::after {
+        content: "IT";
+        font-family: 'Roboto';
+        color:  #EC7979;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 32px;
+}
+.text {
+        width: 544px;
+        font-family: 'Raleway';
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  rgba(255, 255, 255, 1);
+        position: relative;
+        z-index: 1;
+}
+.text::after {
+        display: block;
+        content: "";
+        width: 64px;
+        height: 2px;
+        margin: 32px 0 39px;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        z-index: 1;
+}
+.device {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(134, 135, 139, 1);
+        margin-bottom: 39px;
+        position: relative;
+        z-index: 1;
+}
+.fp__download {
+        width: 135px;
+        height: 42px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-color: rgba(255, 255, 255, 1) solid 1px;
+        color: rgba(255, 255, 255, 1);
+        position: relative;
+        z-index: 1;
+}
+.fp__download:hover {
+        width: 135px;
+        height: 42px;
+        background-color: #EC7979;
+        box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 15px 5px;
+        border-radius: 10px;
+        transition: 0.5s;
+        transform: scale(1.2, 1.2);
+}
+.fp__content__form {
+        width: 370px;
+        height: 370px;
+}
+.fp__right__item {
+        width: 370px;
+        height: 316px;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        z-index: 1;
+        border-radius: 5px 5px 0 0;
+}
+.fp__right__item__title {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        padding: 10px 0;
+
+}
+.titlefoheaderaccent::after {
+        content: "FREE";
+        color: rgba(236, 121, 121, 1);
+}
+.try__item {
+        padding: 10px 59px;
+}
+.right__item__label {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(189, 189, 189, 1);
+}
+.right__item__input {
+        border: none;
+        border-bottom: rgba(189, 189, 189, 1) 1px solid;
+        width: 250px;
+}
+.get_item {
+        width: 100%;
+        border: none;
+        height: 54px;
+        background-color: rgba(236, 121, 121, 1);
+        border-radius: 0 0 5px 5px;
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Open Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+.get_item:hover {
+        background-color: #fff;
+        height: 70px;
+        color: rgba(236, 121, 121, 1);
+        border: rgba(236, 121, 121, 1) 1px solid;
+        font-size: 30px;
+        border-radius: 0 0 10px 10px;
+        transition: 0.5s;
+}

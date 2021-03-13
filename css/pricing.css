@@ -1,28 +1,35 @@
 .pricing {
-        width: 100%;
-        margin: top 10px;
-        background-color: #E5E5E5
+        background-color: #E5E5E5;
+        padding: 100px 0;
 }
-.pricing__item {
-        font-family: 'Raleway', sans-serif;
-        color: #212121;
+.pricing__container {
+        max-width: 1170px;
+        padding: 0 15px;
+        margin: auto;
+}
+.pricing__title {
+        font-family: 'Raleway';
         font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
         line-height: 42px;
-        font-weight: bold;
-        margin: auto;
-        vertical-align: auto;
+        letter-spacing: 0em;
         text-align: center;
-        margin-bottom: 34px;
 }
-.line__cost {
-        margin: auto;
-        margin-bottom: 34px;
+.pricing__title::after {
+        content: '';
         width: 64px;
-        height: 2px;
-        background-color: rgba(217, 137, 67, 1);
+        height: 1px;
+        background-color: rgba(231, 36, 36, 1);
+        border: none;
+        display: flex;
+        margin: auto;
+        margin-top: 34px;
+        margin-bottom: 34px;
 }
-.cost__discription {
-        font-family: 'Open sans', normal 400;
+.pricing__discription {
+        font-family: 'Raleway';
+        font-weight: normal;
         font-size: 14px;
         line-height: 19px;
         text-align: center;
@@ -31,12 +38,16 @@
 }
 .cost__container {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
 }
 .cost__item {
-        margin: 0px 15px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 19px;
         background-color: rgba(51, 51, 51, 1);
-        width: 360px;
+        width: 340px;
         background: #E5E5E5;
 }
 .cost__item:hover {
@@ -52,8 +63,8 @@
         font-weight: bold;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-        padding: 10px 0px;
-        margin: 2px 0px;
+        margin-bottom: 2px 0;
+        padding: 20px 0;
 }
 .cost {
         background-color: rgba(51, 51, 51, 1);
@@ -63,8 +74,8 @@
         font-size: 35px;
         text-align: center;
         color: #FFFFFF;
-        padding: 25px 0px;
-        margin: 2px 0px;
+        margin: 2px 0;
+        padding: 45px 0;
 }
 .free__block {
         font-family: 'Open Sans' normal 400;
@@ -73,8 +84,8 @@
         margin: auto;
         background-color: rgba(51, 51, 51, 1);
         color: rgba(255, 255, 255, 0.5);
-        padding: 10px 0px;
-        margin: 2px 0px;
+        margin-bottom: 2px 0;
+        padding: 20px;
 }
 .memory__content {
         background: rgba(255, 255, 255, 1);
@@ -85,13 +96,13 @@
         text-align: center;
         margin: auto;
         color: rgba(134, 135, 139, 1);
-        padding: 10px 0px;
+        padding: 15px 0px;
         margin: 2px 0px;
 }
 .memory__content:hover {
         background-color: #EC7979;
         color: rgba(255, 255, 255, 1);
-        font-size: 18px;
-        box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.17);
-        transition: 0.3s;
+        font-size: 14px;
+        transform: scale(1.1, 1.1);
+        transition: 0.5s;
 }

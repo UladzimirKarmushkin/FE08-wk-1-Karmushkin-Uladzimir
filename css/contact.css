@@ -1,7 +1,39 @@
-.container {
-        max-width: 1170px;
+.contact {
+        padding: 100px 0;
+        
 }
-.form__contact {
+.contact__container {
+        padding: 0 15px;
+        max-width: 1170px;
+        margin: auto;
+}
+.contact__title {
+        font-family: 'Raleway', sans-serif;
+        color: #212121;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: bold;
+        text-align: center;
+}
+.contact__title::after {
+        content: "";
+        display: block;
+        width: 64px;
+        height: 1px;
+        border: none;
+        background-color: rgba(231, 36, 36, 1);
+        margin: auto;
+        margin-top: 34px;
+        margin-bottom: 34px;
+}
+.contact__discription {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(134, 135, 139, 1);
+        margin-bottom: 63px;
 }
 .user__data {
         display: flex;
@@ -14,25 +46,17 @@ input {
         border-bottom: 1px solid rgba(189, 189, 189, 1);
         margin-bottom: 31px;
 }
-.user__data {
-}
 .left__item {
         max-width: 478px;
         margin: 0 111px;
-}
-.name__data {
 }
 .user_name::after {
         content: "*";
         color: red;
 }
-.email__data {
-}
 .user_email::after {
         content: "*";
         color: red;
-}
-.password__data {
 }
 .user_passport::after {
         content: "*";
@@ -42,17 +66,9 @@ input {
         max-width: 478px;
         margin: 0 111px;
 }
-.message {
-}
-label {
-        display: block;
-        margin-bottom: 32px;
-}
-input {
-        display: block;
-}
-.message__item {
-        margin-bottom: 228px;
+.contact__textarea {
+        width: 400px;
+        height: 183px;
 }
 .send__button {
         width: 166px;
